@@ -88,6 +88,10 @@ sudo snap install nextcloud
 - Accessed the server from another device on the LAN:
   http://192.168.1.XX/
 
+![Screenshot from 2025-07-01 15-47-07](https://github.com/user-attachments/assets/69054e1a-0bb6-457f-9261-0f247bc6aca5)
+![photo_2025-07-01_16-21-50](https://github.com/user-attachments/assets/536a40e3-d750-45ac-afab-1800dcfb3e1d)
+  
+
 ### 📂 Exposing Local Folders to Nextcloud
 Since Snap version can't access /home, we moved files to /media/.
 ```ini
@@ -101,6 +105,8 @@ Then configured them via:
 > Nextcloud Admin → Settings → External Storage
 > Set type to: Local
 > Path: /media/nextcloud-data and /media/nextcloud-documents
+
+![Screenshot from 2025-07-01 15-53-58](https://github.com/user-attachments/assets/b649733e-2452-4c8e-923e-27646b4914a5)
 
 ✅ Successfully browsed these folders on both mobile and web interface.
 
